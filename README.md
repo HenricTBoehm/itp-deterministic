@@ -18,6 +18,8 @@ Phase A.3 independently reconstructs the published PSO penalty terms. It confirm
 
 Phase A.4 separately audits the published 2026 journal article using its new geometry constants. The full 2026 wall-constraint system is infeasible even over the unrestricted continuous domain, while `{c1,c3}` alone is feasible only through negative `x4` and is therefore not universally contradictory. It also audits the printed CPSO candidate and Table 14 arithmetic without reproducing ANN training or CPSO. See `docs/published_2026_feasibility.md`. MPRS remains `HOLD`.
 
+Phase A.4.1 strengthens the Table 14 check by requiring all displayed penalty evidence to arise from one common hidden coordinate pair. It finds run 1 jointly inconsistent as printed, runs 2 and 3 conditionally compatible, and the hypothesized `2078.988` transcription conditionally compatible but unverified. See `docs/phase_a4_1_joint_penalty_review.md`.
+
 ## Install and run
 
 ```bash

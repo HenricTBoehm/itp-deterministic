@@ -6,7 +6,9 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from itp_opt.published_2026 import SOURCE_FILE, SOURCE_SHA256, audit_report, file_sha256
+from itp_opt.published_2026 import (
+    SOURCE_FILE, SOURCE_SHA256, audit_report, file_sha256, joint_penalty_report,
+)
 
 
 def main() -> int:
@@ -20,6 +22,10 @@ def main() -> int:
     destination = root / "results/published_2026_audit.json"
     destination.write_text(json.dumps(audit_report(), indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(destination)
+    joint_destination = root / "results/published_2026_joint_penalty.json"
+    joint_destination.write_text(
+        json.dumps(joint_penalty_report(), indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(joint_destination)
     return 0
 
 

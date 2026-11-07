@@ -1,0 +1,303 @@
+{
+  "assumptions": {
+    "component_rounding": "conventional nearest rounding to three significant digits",
+    "coordinate_rounding": "conventional nearest rounding to one decimal place",
+    "interval_convention": "positive displayed values use half-open [lower, upper) intervals",
+    "p4": "unknown but nonnegative",
+    "total_rounding": "conventional nearest rounding to three decimal places",
+    "violated_branches": true
+  },
+  "audit": {
+    "decision": "READY_FOR_REVIEW",
+    "phase": "A.4.1"
+  },
+  "run1_transcription_hypothesis": {
+    "F_minus_phi_central": "2078.988",
+    "classification": "CONDITIONALLY_COMPATIBLE",
+    "display_interval": [
+      "2078.9875",
+      "2078.9885"
+    ],
+    "hypothesized_P": "2078.988",
+    "simultaneous_interval": [
+      "2078.98821617838319356813370804488489577326356369120047649116",
+      "2078.9885"
+    ],
+    "warning": "A compatible transcription hypothesis is not a correction or historical reconstruction."
+  },
+  "runs": [
+    {
+      "classification": "CONFIRMED_INCONSISTENCY",
+      "coordinate_intersections_nonempty": true,
+      "directed_endpoint_enclosures": {
+        "maximum_endpoint": [
+          "2079.0130390491416856778054804201148982779752203541694287199876813349700849112742",
+          "2079.0130390491416856778054804201148982779752203541694287199876813349700849112752"
+        ],
+        "minimum_endpoint": [
+          "2078.9882161783831935681337080448848957732635636912004764911844615793290372715580",
+          "2078.9882161783831935681337080448848957732635636912004764911844615793290372715590"
+        ]
+      },
+      "display_intervals": {
+        "F_minus_phi": [
+          "2078.9870",
+          "2078.9890"
+        ],
+        "P": [
+          "2078.8975",
+          "2078.8985"
+        ],
+        "p1": [
+          "0.00003565",
+          "0.00003575"
+        ],
+        "p2": [
+          "0.000001105",
+          "0.000001115"
+        ],
+        "p3": [
+          "0.002035",
+          "0.002045"
+        ]
+      },
+      "historical_coordinates_reconstructed": false,
+      "joint_coordinate_intervals_mm": {
+        "x3": [
+          "223.662691607626065354459314835433359873541481900900022410683",
+          "223.664552169817317854493023965956955337504688067166166209834"
+        ],
+        "x4": [
+          "112.381332549724864266270484306434459706644404970714957541054",
+          "112.381865329227027705493252874096011956440607454037244416846"
+        ]
+      },
+      "known_penalty_certified_outward_bounds": [
+        "2078.988216178383",
+        "2079.013039049142"
+      ],
+      "known_penalty_endpoint_semantics": {
+        "lower": "infimum; excluded because both upper penalty endpoints are excluded",
+        "upper": "maximum; included because both lower penalty endpoints are included"
+      },
+      "known_penalty_raw_extrema": {
+        "lower": "2078.98821617838319356813370804488489577326356369120047649116",
+        "upper": "2079.01303904914168567780548042011489827797522035416942871991"
+      },
+      "monotonicity_certificate": {
+        "numerical_certification": "80-digit directed interval arithmetic with adjacent-value sqrt enclosures; reported bounds rounded outward to 12 decimals",
+        "partial_derivative_upper_bounds": {
+          "d_dp1": "-0.18928815956395216346973204127004789141177863493405881857902",
+          "d_dp2": "-0.57719585027480756157520340652668324882403578125071664755172"
+        },
+        "proof": "residual and |dx_i/dp_i| decrease with either penalty; therefore each partial derivative is maximized at the upper-upper endpoint, where both are negative",
+        "strictly_decreasing_in_p1_and_p2": true
+      },
+      "p3_bounds": [
+        "0.002042123216",
+        "0.002042258040"
+      ],
+      "p3_simultaneously_compatible": true,
+      "p4": {
+        "known_fact": "p4 >= 0",
+        "status": "NON_EVALUABLE"
+      },
+      "penalty_derived_coordinate_intervals_mm": {
+        "x3": [
+          "223.662691607626065354459314835433359873541481900900022410683",
+          "223.664552169817317854493023965956955337504688067166166209834"
+        ],
+        "x4": [
+          "112.381332549724864266270484306434459706644404970714957541054",
+          "112.381865329227027705493252874096011956440607454037244416846"
+        ]
+      },
+      "run": 1,
+      "simultaneous_total_interval": null
+    },
+    {
+      "classification": "CONDITIONALLY_COMPATIBLE",
+      "coordinate_intersections_nonempty": true,
+      "directed_endpoint_enclosures": {
+        "maximum_endpoint": [
+          "2078.9413829703422469468233350328989726296821250867340057572668608042419633041019",
+          "2078.9413829703422469468233350328989726296821250867340057572668608042419633041029"
+        ],
+        "minimum_endpoint": [
+          "2078.9173184308381967461259163101551505242795153913747104138383293443699598930995",
+          "2078.9173184308381967461259163101551505242795153913747104138383293443699598931014"
+        ]
+      },
+      "display_intervals": {
+        "F_minus_phi": [
+          "2078.9210",
+          "2078.9230"
+        ],
+        "P": [
+          "2078.9225",
+          "2078.9235"
+        ],
+        "p1": [
+          "0.00003585",
+          "0.00003595"
+        ],
+        "p2": [
+          "0.000001165",
+          "0.000001175"
+        ],
+        "p3": [
+          "0.002035",
+          "0.002045"
+        ]
+      },
+      "historical_coordinates_reconstructed": false,
+      "joint_coordinate_intervals_mm": {
+        "x3": [
+          "223.658978366019344283280202150154962222251651029195551900536",
+          "223.660833676694266190899502937355427077705711887941495108546"
+        ],
+        "x4": [
+          "112.378184950305998362816259671400995837279847605455321546081",
+          "112.378703859749805279152872555024790312529299006887042092542"
+        ]
+      },
+      "known_penalty_certified_outward_bounds": [
+        "2078.917318430838",
+        "2078.941382970343"
+      ],
+      "known_penalty_endpoint_semantics": {
+        "lower": "infimum; excluded because both upper penalty endpoints are excluded",
+        "upper": "maximum; included because both lower penalty endpoints are included"
+      },
+      "known_penalty_raw_extrema": {
+        "lower": "2078.91731843083819674612591631015515052427951539137471041380",
+        "upper": "2078.94138297034224694682333503289897262968212508673400575738"
+      },
+      "monotonicity_certificate": {
+        "numerical_certification": "80-digit directed interval arithmetic with adjacent-value sqrt enclosures; reported bounds rounded outward to 12 decimals",
+        "partial_derivative_upper_bounds": {
+          "d_dp1": "-0.18583990787533439852052416700019305659005505836063902595097",
+          "d_dp2": "-0.53618885367560904465742788122240633837160087649011193700958"
+        },
+        "proof": "residual and |dx_i/dp_i| decrease with either penalty; therefore each partial derivative is maximized at the upper-upper endpoint, where both are negative",
+        "strictly_decreasing_in_p1_and_p2": true
+      },
+      "p3_bounds": [
+        "0.002041792318",
+        "0.002041926383"
+      ],
+      "p3_simultaneously_compatible": true,
+      "p4": {
+        "known_fact": "p4 >= 0",
+        "status": "NON_EVALUABLE"
+      },
+      "penalty_derived_coordinate_intervals_mm": {
+        "x3": [
+          "223.658978366019344283280202150154962222251651029195551900536",
+          "223.660833676694266190899502937355427077705711887941495108546"
+        ],
+        "x4": [
+          "112.378184950305998362816259671400995837279847605455321546081",
+          "112.378703859749805279152872555024790312529299006887042092542"
+        ]
+      },
+      "run": 2,
+      "simultaneous_total_interval": [
+        "2078.9225",
+        "2078.9230"
+      ]
+    },
+    {
+      "classification": "CONDITIONALLY_COMPATIBLE",
+      "coordinate_intersections_nonempty": true,
+      "directed_endpoint_enclosures": {
+        "maximum_endpoint": [
+          "2078.9337029853190687624382145890806073370053170069242518392381915033960063688521",
+          "2078.9337029853190687624382145890806073370053170069242518392381915033960063688531"
+        ],
+        "minimum_endpoint": [
+          "2078.9096746390245594788458868688338966114588920828172456472427613400416888392833",
+          "2078.9096746390245594788458868688338966114588920828172456472427613400416888392843"
+        ]
+      },
+      "display_intervals": {
+        "F_minus_phi": [
+          "2078.9180",
+          "2078.9200"
+        ],
+        "P": [
+          "2078.9195",
+          "2078.9205"
+        ],
+        "p1": [
+          "0.00003595",
+          "0.00003605"
+        ],
+        "p2": [
+          "0.000001145",
+          "0.000001155"
+        ],
+        "p3": [
+          "0.002035",
+          "0.002045"
+        ]
+      },
+      "historical_coordinates_reconstructed": false,
+      "joint_coordinate_intervals_mm": {
+        "x3": [
+          "223.657125664675184778188580098041240919024947104869719751349",
+          "223.658978366019344283280202150154962222251651029195551900536"
+        ],
+        "x4": [
+          "112.379225005916230524900508700600464557934267935197838319896",
+          "112.379748417917379597034469396099358153511356265601866151263"
+        ]
+      },
+      "known_penalty_certified_outward_bounds": [
+        "2078.909674639024",
+        "2078.933702985320"
+      ],
+      "known_penalty_endpoint_semantics": {
+        "lower": "infimum; excluded because both upper penalty endpoints are excluded",
+        "upper": "maximum; included because both lower penalty endpoints are included"
+      },
+      "known_penalty_raw_extrema": {
+        "lower": "2078.90967463902455947884588686883389661145889208281724564730",
+        "upper": "2078.93370298531906876243821458908060733700531700692425183918"
+      },
+      "monotonicity_certificate": {
+        "numerical_certification": "80-digit directed interval arithmetic with adjacent-value sqrt enclosures; reported bounds rounded outward to 12 decimals",
+        "partial_derivative_upper_bounds": {
+          "d_dp1": "-0.18414901589480731042757692998839925658808234284417508708545",
+          "d_dp2": "-0.54942753042332184741459150971939938553262913823075101453799"
+        },
+        "proof": "residual and |dx_i/dp_i| decrease with either penalty; therefore each partial derivative is maximized at the upper-upper endpoint, where both are negative",
+        "strictly_decreasing_in_p1_and_p2": true
+      },
+      "p3_bounds": [
+        "0.002041704674",
+        "0.002041838703"
+      ],
+      "p3_simultaneously_compatible": true,
+      "p4": {
+        "known_fact": "p4 >= 0",
+        "status": "NON_EVALUABLE"
+      },
+      "penalty_derived_coordinate_intervals_mm": {
+        "x3": [
+          "223.657125664675184778188580098041240919024947104869719751349",
+          "223.658978366019344283280202150154962222251651029195551900536"
+        ],
+        "x4": [
+          "112.379225005916230524900508700600464557934267935197838319896",
+          "112.379748417917379597034469396099358153511356265601866151263"
+        ]
+      },
+      "run": 3,
+      "simultaneous_total_interval": [
+        "2078.9195",
+        "2078.9200"
+      ]
+    }
+  ]
+}
