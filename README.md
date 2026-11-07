@@ -2,6 +2,14 @@
 
 Reproducible Python 3.11+ baseline without machine learning or randomized search.
 
+## About
+
+This research software investigates whether the ITP 2023 building-energy optimization problem can be solved transparently with deterministic methods and direct physical simulation instead of machine-learning surrogate models and randomized optimization.
+
+It provides auditable source-data validation, explicit three-state admissibility checks, deterministic catalog enumeration, exact evaluation of observed simulations, constraint and source reconciliation, reproducible command-line workflows, and a guarded EnergyPlus interface. The current result is deliberately inconclusive: Phase A and A.1 are implemented, while physical optimization remains blocked by conflicting historical inputs, an unresolved constraint interpretation, and missing verified EnergyPlus model and weather files.
+
+The project does not claim that deterministic optimization is superior to machine learning. It establishes a reproducible framework for testing that hypothesis against the same physical reference, constraints, and computational budget.
+
 ## Current evidence status
 
 The historical sources were found in `/home/henric/Projekte/ITP_2023` and copied unchanged into `data/original/`. The original directory was not modified. The later Python arrays verify the intended CSV row order, but the report input table conflicts with CSV rows 9 and 15–30. See `docs/source_inventory.md`.
