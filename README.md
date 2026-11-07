@@ -62,3 +62,17 @@ Global options such as `--data-dir` and `--results-dir` precede the command. Exi
 See `docs/methodology.md` and `results/research_report.md`.
 
 If Debian's `venv`/`pip` packages are unavailable, `scripts/bootstrap_pytest.sh` creates an isolated test environment under `/tmp/opencode` without modifying system packages.
+
+## Licensing and source-material rights
+
+The MIT license applies to the original audit code and project-authored audit materials. It
+does not relicense third-party sources:
+
+- the published 2026 journal article is identified in the PDF as **CC BY-NC 4.0**;
+- redistribution and reuse rights for the historical 2023 report, data, and source files
+  remain `NOT_VERIFIABLE` from the available evidence.
+
+These rights must be assessed separately before publication or redistribution. Rights
+clearance is an explicit publication-release gate, and MPRS remains `HOLD`. See
+[`THIRD_PARTY_MATERIALS.md`](THIRD_PARTY_MATERIALS.md) for the file-level inventory,
+attribution, conditions, and required release actions.

@@ -23,6 +23,8 @@
 | Internal CPSO coordinates recovered | `NOT_VERIFIABLE` | Only rounded output is available; no inversion is used as historical recovery. |
 | ANN/CPSO/optimality reproduced | `NOT_VERIFIABLE` | Out of scope and required data/artifacts are unavailable. |
 | 170-scenario dataset fully audited | `NOT_VERIFIABLE` | The PDF displays only first 20 and last 10 rows. |
+| MIT covers the journal PDF and historical sources | `CONFIRMED_INCONSISTENCY` | MIT applies to the audit work; the article states CC BY-NC 4.0, while historical-source redistribution rights remain `NOT_VERIFIABLE`. |
+| Publication rights cleared | `NOT_VERIFIABLE` | Historical permissions and intended-use compliance are unresolved; this is a mandatory release gate, not an editorial issue. |
 | MPRS publication decision | `CONFIRMED` | Remains `HOLD` by task boundary. |
 
 `CONFIRMED` documentary inconsistencies do not by themselves prove defects in the original

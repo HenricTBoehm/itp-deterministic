@@ -43,6 +43,10 @@ The script verifies the local PDF SHA-256 before replacing
   PLUS version/model and actual climate input be archived?
 - Is Table 14's third penalty-component row intended to say run 3?
 - What unrounded values underlie the run-1 `F`, `Phi`, and `P` inconsistency?
+- What permission or other reviewed legal basis permits redistribution of each historical
+  report, data, and source file?
+- Does the intended publication use of the journal PDF and reused article content satisfy
+  CC BY-NC 4.0 attribution, notice, change-indication, and noncommercial conditions?
 
 Original Phase A.4 recommendation: `HOLD` until the joint extension; MPRS remains `HOLD`.
 
@@ -60,3 +64,7 @@ The final complete suite passed **41 tests in 1.43 s** with no failures. Two con
 runs produced byte-identical main and joint JSON outputs.
 
 Phase A.4.1 decision: `READY_FOR_REVIEW`. This does not change the MPRS `HOLD` decision.
+
+Rights clearance remains a separate mandatory publication gate. See
+`THIRD_PARTY_MATERIALS.md`; the repository MIT license neither resolves historical-source
+permissions nor replaces the article's CC BY-NC 4.0 terms.

@@ -18,7 +18,7 @@ The requested manuscript `ITP_Feasibility_Audit_v0.2.tex` is not present in the 
 | Falsifiability | CONFIRMED for mathematical claims | Constants, formulas, tolerances, and counterchecks are explicit |
 | Adversarial review | CONDITIONAL | Rounded-coordinate alternatives and inverse consistency tested; independent domain review absent |
 | Interpretation limits | CONFIRMED in review artifacts | Discrete, continuous, and full-building feasibility are separated |
-| Publication rights | NOT_VERIFIABLE | Software has an MIT license; rights to the historical report, data, images, and intended manuscript reuse are not established |
+| Publication rights | NOT_VERIFIABLE | MIT covers the audit work only; the article states CC BY-NC 4.0, while rights to the historical report, data, images, and intended manuscript reuse are not established. See `THIRD_PARTY_MATERIALS.md` |
 | Authorship | NOT_VERIFIABLE | Author contributions, consent, affiliations, and corresponding-author approval are unavailable |
 | Independent peer review | NOT SATISFIED | DeepSeek is an external computational check, not scientific peer review |
 
@@ -37,7 +37,9 @@ The requested manuscript `ITP_Feasibility_Audit_v0.2.tex` is not present in the 
 2. Supply the authoritative MPRS v0.3.2 checklist if criteria beyond those in the work order are required.
 3. Resolve or explicitly quarantine the 17 disputed input mappings.
 4. Obtain engineering confirmation of constraint semantics and units.
-5. Establish permissions for report/data/image reuse and document author contributions and approvals.
+5. Establish permissions or another reviewed legal basis for historical report/data/image
+   redistribution; separately document CC BY-NC 4.0 compliance for journal-article reuse;
+   and document author contributions and approvals.
 6. Obtain independent scientific peer review; DeepSeek confirmation may remain supplementary only.
 
 Until these items are addressed, the release recommendation remains **HOLD**.
