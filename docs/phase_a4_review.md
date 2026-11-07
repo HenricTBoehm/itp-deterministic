@@ -44,4 +44,19 @@ The script verifies the local PDF SHA-256 before replacing
 - Is Table 14's third penalty-component row intended to say run 3?
 - What unrounded values underlie the run-1 `F`, `Phi`, and `P` inconsistency?
 
-Recommendation: `HOLD` until independent review; MPRS remains `HOLD`.
+Original Phase A.4 recommendation: `HOLD` until the joint extension; MPRS remains `HOLD`.
+
+## Phase A.4.1 extension
+
+The joint-penalty extension starts from commit
+`e2ea81a251e39ce92d18e3bee8fbc3bdfbdc22fc`; its unchanged baseline is **32 passed**.
+It adds nine tests covering violated-branch inversion, significant-digit intervals, joint
+coordinate intersections, monotonicity-certified bounds, `p3`, nonnegative `p4`, all three
+run classifications, the `2078.988` hypothesis and deterministic output. See
+`docs/phase_a4_1_joint_penalty_review.md` and
+`results/published_2026_joint_penalty.json`.
+
+The final complete suite passed **41 tests in 1.43 s** with no failures. Two consecutive
+runs produced byte-identical main and joint JSON outputs.
+
+Phase A.4.1 decision: `READY_FOR_REVIEW`. This does not change the MPRS `HOLD` decision.

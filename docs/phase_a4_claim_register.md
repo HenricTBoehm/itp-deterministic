@@ -10,6 +10,10 @@
 | Printed candidate window condition | `NOT_VERIFIABLE` | Multiplicity, aggregation and unit mapping are unresolved; represented as `NON_EVALUABLE`. |
 | Exact printed coordinates reproduce Table 14 components | `CORRECTED` | None of the three exact non-window terms lies in any corresponding displayed component interval. |
 | Reported components could arise inside coordinate rounding box | `CONDITIONAL` | Each displayed interval intersects each component range over the box; this does not identify internal coordinates. |
+| Run 1 components and printed total arise from one common pair | `CONFIRMED_INCONSISTENCY` | Certified `P_known >= 2078.988216178383`, while printed `P < 2078.8985`; unknown `p4>=0` cannot reduce it. |
+| Run 2 joint components, total and `F-Phi` | `CONDITIONALLY_COMPATIBLE` | Common interval `[2078.9225,2078.9230)` exists under stated rounding assumptions and `p4>=0`. |
+| Run 3 joint components, total and `F-Phi` | `CONDITIONALLY_COMPATIBLE` | Common interval `[2078.9195,2078.9200)` exists under stated rounding assumptions and `p4>=0`. |
+| Run 1 `2078.988` transcription hypothesis | `CONDITIONALLY_COMPATIBLE` | Overlap `[2078.988216178383...,2078.9885)` exists and central addition closes; author intent remains unverified. |
 | Run 1 `F=Phi+P` decomposition | `CONFIRMED` inconsistency | `14240.621+2078.898=16319.519`, 0.090 below printed `F`; three-decimal intervals are disjoint. |
 | Run 2 decomposition error | `CONDITIONAL` | Printed sum differs by 0.001, but ordinary three-decimal intervals overlap. |
 | Run 3 decomposition error | `CONDITIONAL` | Printed sum differs by 0.001, but ordinary three-decimal intervals overlap. |

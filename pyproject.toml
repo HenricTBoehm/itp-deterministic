@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "itp-deterministic"
 version = "0.1.0"
-description = "Deterministic, auditable building-energy optimization for ITP 2023"
+description = "Reproducible mathematical and documentary audits of 2023 and 2026 building-energy research"
 requires-python = ">=3.11"
 dependencies = []
 
