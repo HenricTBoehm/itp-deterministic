@@ -14,6 +14,8 @@ The project does not claim that deterministic optimization is superior to machin
 
 The historical sources were found in `/home/henric/Projekte/ITP_2023` and copied unchanged into `data/original/`. The original directory was not modified. The later Python arrays verify the intended CSV row order, but the report input table conflicts with CSV rows 9 and 15–30. See `docs/source_inventory.md`.
 
+Phase A.3 independently reconstructs the published PSO penalty terms. It confirms the discrete catalog MUS `{c1,c3}` and a nonempty continuous `c1`–`c3` region, corrects the penalty obtained from printed `x4=112.4`, and treats inversely calculated coordinates as conditional rather than recovered historical values. See `docs/pso_rounding_analysis.md`.
+
 ## Install and run
 
 ```bash
@@ -26,6 +28,7 @@ python3 -m venv .venv
 .venv/bin/itp-opt reconcile
 .venv/bin/itp-opt optimize --backend observed
 .venv/bin/itp-opt verify --config config/example.yaml
+python3 scripts/verify_pso_penalties.py
 ```
 
 Global options such as `--data-dir` and `--results-dir` precede the command. Exit codes are `0` for success, `2` for invalid/unverified data, `3` for missing EnergyPlus prerequisites, and `4` for a non-evaluable optimization or unverified model mapping.
