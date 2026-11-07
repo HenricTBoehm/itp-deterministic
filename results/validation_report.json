@@ -1,0 +1,285 @@
+{
+  "combined_data_consistency": {
+    "conflicting_duplicate_configurations": 0,
+    "source": "processed_data.csv",
+    "window_property_dependency": "NOT_A_FUNCTION_OF_GLASS_LAYER_COUNT_ALONE",
+    "window_property_pairs_by_x6": {
+      "1": [
+        [
+          "0.7",
+          "2.8"
+        ],
+        [
+          "0.87",
+          "3.01"
+        ]
+      ],
+      "2": [
+        [
+          "0.7",
+          "2.8"
+        ],
+        [
+          "0.87",
+          "3.01"
+        ]
+      ]
+    }
+  },
+  "expected_observations": 30,
+  "files": {
+    "building_data.csv": {
+      "column_statistics": {
+        "window_g_value": {
+          "max": 0.87,
+          "min": 0.7,
+          "missing": 0,
+          "type": "number",
+          "unique": 2
+        },
+        "window_u_value": {
+          "max": 3.01,
+          "min": 2.8,
+          "missing": 0,
+          "type": "number",
+          "unique": 2
+        },
+        "x1": {
+          "max": 200.0,
+          "min": 130.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x2": {
+          "max": 16.5,
+          "min": 11.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x3": {
+          "max": 250.0,
+          "min": 150.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x4": {
+          "max": 200.0,
+          "min": 100.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x5": {
+          "max": 2.1,
+          "min": 1.5,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x6": {
+          "max": 2.0,
+          "min": 1.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 2
+        },
+        "x7": {
+          "max": 4.4,
+          "min": 3.52,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x8": {
+          "max": 1.68,
+          "min": 1.26,
+          "missing": 0,
+          "type": "number",
+          "unique": 2
+        }
+      },
+      "columns": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "x6",
+        "x7",
+        "x8",
+        "window_g_value",
+        "window_u_value"
+      ],
+      "duplicate_rows": 0,
+      "path": "data/original/building_data.csv",
+      "rows": 30,
+      "sha256": "7c4168896bbcf7d62554244754ee7fc8e3829d195e2a9c197badb2114aa79895",
+      "status": "PRESENT"
+    },
+    "output_values.csv": {
+      "column_statistics": {
+        "co2_emissions": {
+          "max": 273.289,
+          "min": 232.734,
+          "missing": 0,
+          "type": "number",
+          "unique": 30
+        },
+        "energy_demand": {
+          "max": 25357.733,
+          "min": 21489.245,
+          "missing": 0,
+          "type": "number",
+          "unique": 30
+        },
+        "energy_loss": {
+          "max": 3245.01,
+          "min": 1220.4,
+          "missing": 0,
+          "type": "number",
+          "unique": 30
+        },
+        "heat_gain": {
+          "max": 4631.209,
+          "min": 1372.777,
+          "missing": 0,
+          "type": "number",
+          "unique": 30
+        }
+      },
+      "columns": [
+        "energy_demand",
+        "energy_loss",
+        "heat_gain",
+        "co2_emissions"
+      ],
+      "duplicate_rows": 0,
+      "path": "data/original/output_values.csv",
+      "rows": 30,
+      "sha256": "f77ec63253a88a9e2db80851125181171f81a1431bf9427aa78c81fc3ce8bf03",
+      "status": "PRESENT"
+    },
+    "processed_data.csv": {
+      "column_statistics": {
+        "window_g_value": {
+          "max": 0.87,
+          "min": 0.7,
+          "missing": 0,
+          "type": "number",
+          "unique": 2
+        },
+        "window_u_value": {
+          "max": 3.01,
+          "min": 2.8,
+          "missing": 0,
+          "type": "number",
+          "unique": 2
+        },
+        "x1": {
+          "max": 200.0,
+          "min": 130.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x2": {
+          "max": 16.5,
+          "min": 11.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x3": {
+          "max": 250.0,
+          "min": 150.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x4": {
+          "max": 200.0,
+          "min": 100.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x5": {
+          "max": 2.1,
+          "min": 1.5,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x6": {
+          "max": 2.0,
+          "min": 1.0,
+          "missing": 0,
+          "type": "number",
+          "unique": 2
+        },
+        "x7": {
+          "max": 4.4,
+          "min": 3.52,
+          "missing": 0,
+          "type": "number",
+          "unique": 3
+        },
+        "x8": {
+          "max": 1.68,
+          "min": 1.26,
+          "missing": 0,
+          "type": "number",
+          "unique": 2
+        }
+      },
+      "columns": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "x6",
+        "x7",
+        "x8",
+        "window_g_value",
+        "window_u_value"
+      ],
+      "duplicate_rows": 0,
+      "path": "data/original/processed_data.csv",
+      "rows": 30,
+      "sha256": "7c4168896bbcf7d62554244754ee7fc8e3829d195e2a9c197badb2114aa79895",
+      "status": "PRESENT"
+    }
+  },
+  "input_output_mapping": {
+    "method": "exact ordered arrays in input_data.py",
+    "reason": "input_data.py exactly reproduces both CSV sequences. This verifies the later Python pairing, but the report's input table conflicts with CSV rows 9 and 15-30, so physical provenance is disputed.",
+    "status": "VERIFIED_FOR_HISTORICAL_PYTHON"
+  },
+  "issues": [],
+  "schema_version": 1,
+  "source_inconsistencies": {
+    "duplicate_input_files": "building_data.csv and processed_data.csv are byte-identical",
+    "report_vs_csv": "Report scenario/numeric tables differ from CSV rows 9 and 15-30; see docs/source_inventory.md. The report has only x1-x8, while CSV/code add g- and U-values."
+  },
+  "units": {
+    "co2_emissions": "UNVERIFIED in supplied report/CSV",
+    "energy_demand": "UNVERIFIED in supplied report/CSV",
+    "energy_loss": "UNVERIFIED in supplied report/CSV",
+    "heat_gain": "UNVERIFIED in supplied report/CSV",
+    "window_g_value": "dimensionless (physical meaning; not documented in report table)",
+    "window_u_value": "W/(m^2*K) expected physically, but source unit is UNVERIFIED",
+    "x1": "mm (report VIII.1)",
+    "x2": "mm (report VIII.1)",
+    "x3": "mm (report VIII.1)",
+    "x4": "mm (report VIII.1)",
+    "x5": "m^2 (report VIII.1)",
+    "x6": "count (report VIII.1)",
+    "x7": "m^2 (report VIII.1)",
+    "x8": "m^2 (report VIII.1)"
+  },
+  "valid": true
+}

@@ -1,0 +1,6 @@
+{
+  "model": "data/original/building.idf",
+  "weather": "data/original/weather.epw",
+  "executable": "energyplus",
+  "output_dir": "results/energyplus"
+}

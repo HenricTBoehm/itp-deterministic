@@ -1,0 +1,144 @@
+{
+  "catalog_size": 5184,
+  "checkable_subset_feasibility": [
+    {
+      "constraints": [
+        "exterior_wall_minimum"
+      ],
+      "feasible_configurations": 1296
+    },
+    {
+      "constraints": [
+        "interior_wall_minimum"
+      ],
+      "feasible_configurations": 3888
+    },
+    {
+      "constraints": [
+        "wall_area_ratio"
+      ],
+      "feasible_configurations": 2916
+    },
+    {
+      "constraints": [
+        "exterior_wall_minimum",
+        "interior_wall_minimum"
+      ],
+      "feasible_configurations": 972
+    },
+    {
+      "constraints": [
+        "exterior_wall_minimum",
+        "wall_area_ratio"
+      ],
+      "feasible_configurations": 0
+    },
+    {
+      "constraints": [
+        "interior_wall_minimum",
+        "wall_area_ratio"
+      ],
+      "feasible_configurations": 1944
+    },
+    {
+      "constraints": [
+        "exterior_wall_minimum",
+        "interior_wall_minimum",
+        "wall_area_ratio"
+      ],
+      "feasible_configurations": 0
+    }
+  ],
+  "individual_constraint_counts": {
+    "exterior_wall_minimum": {
+      "ADMISSIBLE": 1296,
+      "INADMISSIBLE": 3888,
+      "NON_EVALUABLE": 0
+    },
+    "interior_wall_minimum": {
+      "ADMISSIBLE": 3888,
+      "INADMISSIBLE": 1296,
+      "NON_EVALUABLE": 0
+    },
+    "total_window_area": {
+      "ADMISSIBLE": 0,
+      "INADMISSIBLE": 0,
+      "NON_EVALUABLE": 5184
+    },
+    "wall_area_ratio": {
+      "ADMISSIBLE": 2916,
+      "INADMISSIBLE": 2268,
+      "NON_EVALUABLE": 0
+    }
+  },
+  "interpretation_risks": [
+    "The report may use nominal layer thicknesses, structural thicknesses, or different reference planes.",
+    "The catalog and continuous PSO define different design spaces.",
+    "Formula rendering was cross-checked in PDF, but intended engineering semantics are not independently sourced."
+  ],
+  "minimal_infeasible_constraint_subsets": [
+    [
+      "exterior_wall_minimum",
+      "wall_area_ratio"
+    ]
+  ],
+  "reference_solution": {
+    "conclusion": "INADMISSIBLE under constraints 2 and 3 as transcribed; constraint 4 remains non-evaluable. The report itself presents a penalized, not strictly feasible, solution.",
+    "constraint_results": [
+      {
+        "name": "exterior_wall_minimum",
+        "reason": "Report: H_story/16 <= x3; 225 <= 291.5 mm.",
+        "status": "ADMISSIBLE"
+      },
+      {
+        "name": "interior_wall_minimum",
+        "reason": "Report: H_story/32 <= x4; 112.5 <= 112.4 mm.",
+        "status": "INADMISSIBLE"
+      },
+      {
+        "name": "wall_area_ratio",
+        "reason": "Report: (x3*L3+x4*L4)/A_floor <= 0.15; calculated 0.177225539031.",
+        "status": "INADMISSIBLE"
+      },
+      {
+        "name": "total_window_area",
+        "reason": "Report specifies sum(x5)/A_floor <= 1/4, but the number/areas of all window instances are unavailable.",
+        "status": "NON_EVALUABLE"
+      }
+    ],
+    "continuous_bounds_status": {
+      "x3": "PASS",
+      "x4": "PASS",
+      "x5": "PASS_AT_LOWER_BOUND"
+    },
+    "penalty_components_reconstructed": {
+      "exterior_wall_squared": 0.0,
+      "interior_wall_squared": 7.915299958205684e-07,
+      "wall_ratio_squared": 0.0007412299755182638,
+      "window_area_squared": "NON_EVALUABLE"
+    },
+    "source": "Report X.2, published PSO run 1",
+    "values": {
+      "x1": 150,
+      "x2": 11,
+      "x3": 291.5,
+      "x4": 112.4,
+      "x5": 1.2,
+      "x6": 2,
+      "x7": 3.96,
+      "x8": 1.68
+    },
+    "wall_ratio": 0.17722553903081192,
+    "wall_ratio_limit": 0.15,
+    "wall_ratio_margin": -0.02722553903081193,
+    "x3_minimum_margin_mm": 66.5,
+    "x4_minimum_margin_mm": -0.09999999999999432
+  },
+  "scope": "Catalog-relative result under the transcribed formulas and units; not proof of physical impossibility.",
+  "unit_audit": {
+    "constraint_1": "H_story and x3 are both mm: dimensionally consistent.",
+    "constraint_2": "H_story and x4 are both mm: dimensionally consistent.",
+    "constraint_3": "x*L gives mm^2 and A_floor is mm^2: dimensionless and consistent.",
+    "constraint_4": "Report x5 is m^2 while A_floor is stated in mm^2; conversion and the meaning/cardinality of sum(x5) are not documented."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "backend": "observed",
+  "best": null,
+  "claim_scope": "none",
+  "evaluable": 0,
+  "evaluated": 30,
+  "global_optimum_claim": false,
+  "objective": "energy_demand"
+}

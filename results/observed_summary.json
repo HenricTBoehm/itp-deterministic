@@ -1,0 +1,206 @@
+{
+  "association_caveat": "Descriptive correlations in 30 non-factorial, jointly varying cases; not causal sensitivities. The report/CSV configuration conflict also limits interpretation.",
+  "descriptive_statistics": {
+    "co2_emissions": {
+      "count": 30,
+      "max": 273.289,
+      "mean": 252.44636666666665,
+      "median": 251.945,
+      "min": 232.734,
+      "population_standard_deviation": 11.250296148645251
+    },
+    "energy_demand": {
+      "count": 30,
+      "max": 25357.733,
+      "mean": 23369.601573333333,
+      "median": 23321.749,
+      "min": 21489.245,
+      "population_standard_deviation": 1073.1457253466244
+    },
+    "energy_loss": {
+      "count": 30,
+      "max": 3245.01,
+      "mean": 2097.4306333333334,
+      "median": 2073.652,
+      "min": 1220.4,
+      "population_standard_deviation": 775.2754482468143
+    },
+    "heat_gain": {
+      "count": 30,
+      "max": 4631.209,
+      "mean": 2633.9816333333333,
+      "median": 2683.4335,
+      "min": 1372.777,
+      "population_standard_deviation": 1211.586834653202
+    }
+  },
+  "observation_count": 30,
+  "observed_minima": {
+    "co2_emissions": {
+      "configuration": {
+        "ceiling": "11.0",
+        "exterior_wall": "250.0",
+        "floor_slab": "200.0",
+        "interior_wall": "200.0",
+        "main_door": "3.96",
+        "secondary_door": "1.26",
+        "window": "1.5|1.0|0.7|2.8",
+        "window_g_value": 0.7,
+        "window_u_value": 2.8,
+        "x1": 200.0,
+        "x2": 11.0,
+        "x3": 250.0,
+        "x4": 200.0,
+        "x5": 1.5,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "tie_break": "lexicographic canonical configuration key",
+      "value": 232.734
+    },
+    "energy_demand": {
+      "configuration": {
+        "ceiling": "11.0",
+        "exterior_wall": "250.0",
+        "floor_slab": "200.0",
+        "interior_wall": "200.0",
+        "main_door": "3.96",
+        "secondary_door": "1.26",
+        "window": "1.5|1.0|0.7|2.8",
+        "window_g_value": 0.7,
+        "window_u_value": 2.8,
+        "x1": 200.0,
+        "x2": 11.0,
+        "x3": 250.0,
+        "x4": 200.0,
+        "x5": 1.5,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "tie_break": "lexicographic canonical configuration key",
+      "value": 21489.245
+    },
+    "energy_loss": {
+      "configuration": {
+        "ceiling": "14.0",
+        "exterior_wall": "250.0",
+        "floor_slab": "130.0",
+        "interior_wall": "100.0",
+        "main_door": "3.96",
+        "secondary_door": "1.68",
+        "window": "1.8|2.0|0.7|2.8",
+        "window_g_value": 0.7,
+        "window_u_value": 2.8,
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 250.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "tie_break": "lexicographic canonical configuration key",
+      "value": 1220.4
+    },
+    "heat_gain": {
+      "configuration": {
+        "ceiling": "14.0",
+        "exterior_wall": "250.0",
+        "floor_slab": "130.0",
+        "interior_wall": "100.0",
+        "main_door": "3.96",
+        "secondary_door": "1.68",
+        "window": "1.8|2.0|0.7|2.8",
+        "window_g_value": 0.7,
+        "window_u_value": 2.8,
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 250.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "tie_break": "lexicographic canonical configuration key",
+      "value": 1372.777
+    }
+  },
+  "pareto_configuration_keys": [
+    "ceiling=11.0|exterior_wall=250.0|floor_slab=200.0|interior_wall=200.0|main_door=3.96|secondary_door=1.26|window=1.5|1.0|0.7|2.8|window_g_value=0.7|window_u_value=2.8|x1=200.0|x2=11.0|x3=250.0|x4=200.0|x5=1.5|x6=1.0|x7=3.96|x8=1.26",
+    "ceiling=14.0|exterior_wall=250.0|floor_slab=130.0|interior_wall=100.0|main_door=3.96|secondary_door=1.68|window=1.8|2.0|0.7|2.8|window_g_value=0.7|window_u_value=2.8|x1=130.0|x2=14.0|x3=250.0|x4=100.0|x5=1.8|x6=2.0|x7=3.96|x8=1.68",
+    "ceiling=16.5|exterior_wall=250.0|floor_slab=150.0|interior_wall=150.0|main_door=3.52|secondary_door=1.26|window=1.5|1.0|0.87|3.01|window_g_value=0.87|window_u_value=3.01|x1=150.0|x2=16.5|x3=250.0|x4=150.0|x5=1.5|x6=1.0|x7=3.52|x8=1.26"
+  ],
+  "pareto_objectives": [
+    "co2_emissions",
+    "energy_demand",
+    "energy_loss",
+    "heat_gain"
+  ],
+  "pearson_associations": {
+    "window_g_value": {
+      "co2_emissions": -0.1550058052669622,
+      "energy_demand": -0.15500954720872998,
+      "energy_loss": -0.39645506178249157,
+      "heat_gain": -0.39892100620700965
+    },
+    "window_u_value": {
+      "co2_emissions": -0.15500580526696217,
+      "energy_demand": -0.15500954720873,
+      "energy_loss": -0.39645506178249157,
+      "heat_gain": -0.3989210062070097
+    },
+    "x1": {
+      "co2_emissions": 0.13596842848654841,
+      "energy_demand": 0.13596770343509795,
+      "energy_loss": 0.2625996864894978,
+      "heat_gain": 0.25175905265430853
+    },
+    "x2": {
+      "co2_emissions": 0.029676624757375838,
+      "energy_demand": 0.029685388229371376,
+      "energy_loss": 0.3969958404614672,
+      "heat_gain": 0.4076941451919903
+    },
+    "x3": {
+      "co2_emissions": -0.6886673906312292,
+      "energy_demand": -0.6886694927686231,
+      "energy_loss": -0.0429595794692474,
+      "heat_gain": -0.01704681091727295
+    },
+    "x4": {
+      "co2_emissions": -0.2740385168576927,
+      "energy_demand": -0.27403224705863566,
+      "energy_loss": -0.24780879484358678,
+      "heat_gain": -0.2606906213340449
+    },
+    "x5": {
+      "co2_emissions": 0.4097719679366033,
+      "energy_demand": 0.40977539590485623,
+      "energy_loss": 0.2446958511709843,
+      "heat_gain": 0.23822130463150892
+    },
+    "x6": {
+      "co2_emissions": 0.008411277815842173,
+      "energy_demand": 0.008403849011927518,
+      "energy_loss": -0.2326822040233164,
+      "heat_gain": -0.23634838438027317
+    },
+    "x7": {
+      "co2_emissions": 0.23064462571945038,
+      "energy_demand": 0.23064636650103798,
+      "energy_loss": 0.3195564476565429,
+      "heat_gain": 0.31100640074005814
+    },
+    "x8": {
+      "co2_emissions": 0.20174115828051759,
+      "energy_demand": 0.20174599733545193,
+      "energy_loss": 0.03665117486059073,
+      "heat_gain": 0.023950924836729757
+    }
+  },
+  "scope": "Empirical observations only; no prediction, interpolation, causal inference, or admissibility claim."
+}

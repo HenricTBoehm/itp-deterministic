@@ -1,0 +1,852 @@
+{
+  "counts": {
+    "DISPUTED": 17,
+    "MATCH": 13
+  },
+  "provenance": {
+    "correction_policy": "No source was modified and no disputed value was automatically selected.",
+    "csv_values": "building_data.csv; exactly reproduced by ordered arrays in input_data.py.",
+    "outputs": "output_values.csv sequence agrees with report VIII.3 and input_data.py, but has no record key.",
+    "report_values": "Manual transcription of report VIII.2 scenario indices, cross-checked against VIII.3 numeric table."
+  },
+  "rows": [
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "record_id": 1,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.52,
+        "x8": 1.68
+      },
+      "record_id": 2,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.52,
+        "x8": 1.68
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 2.1,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "record_id": 3,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 2.1,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "record_id": 4,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 14.0,
+        "x3": 200.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "record_id": 5,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 14.0,
+        "x3": 200.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "record_id": 6,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 16.5,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "record_id": 7,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 16.5,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "record_id": 8,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [
+        "x6"
+      ],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 9,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "record_id": 10,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 16.5,
+        "x3": 250.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "record_id": 11,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 16.5,
+        "x3": 250.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 12,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "record_id": 13,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 200.0,
+        "x5": 1.5,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 14,
+      "reliability": "CORROBORATED_BY_REPORT_AND_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 200.0,
+        "x5": 1.5,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "status": "MATCH"
+    },
+    {
+      "conflicting_fields": [
+        "x6"
+      ],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 14.0,
+        "x3": 200.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "record_id": 15,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 14.0,
+        "x3": 200.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x5"
+      ],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 200.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "record_id": 16,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 150.0,
+        "x4": 200.0,
+        "x5": 1.5,
+        "x6": 1.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x3",
+        "x4",
+        "x6"
+      ],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 250.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 17,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x3",
+        "x4",
+        "x5",
+        "x6",
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 18,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 250.0,
+        "x4": 100.0,
+        "x5": 2.1,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x7",
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 19,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x1",
+        "x5",
+        "x6"
+      ],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 20,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 11.0,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 16.5,
+        "x3": 250.0,
+        "x4": 150.0,
+        "x5": 1.5,
+        "x6": 1.0,
+        "x7": 3.52,
+        "x8": 1.26
+      },
+      "record_id": 21,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 16.5,
+        "x3": 250.0,
+        "x4": 150.0,
+        "x5": 1.5,
+        "x6": 1.0,
+        "x7": 3.52,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x6",
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 22,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 3.52,
+        "x8": 1.68
+      },
+      "record_id": 23,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 200.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x5",
+        "x7",
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 2.1,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 24,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.26
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 25,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 200.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x4",
+        "x6",
+        "x7"
+      ],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 26,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 11.0,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x3",
+        "x4",
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 150.0,
+        "x2": 16.5,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 27,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 150.0,
+        "x2": 16.5,
+        "x3": 200.0,
+        "x4": 150.0,
+        "x5": 2.1,
+        "x6": 1.0,
+        "x7": 3.52,
+        "x8": 1.26
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x4",
+        "x5"
+      ],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 16.5,
+        "x3": 150.0,
+        "x4": 150.0,
+        "x5": 1.8,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 28,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 16.5,
+        "x3": 150.0,
+        "x4": 100.0,
+        "x5": 1.5,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x2",
+        "x7"
+      ],
+      "csv_values": {
+        "x1": 130.0,
+        "x2": 14.0,
+        "x3": 250.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "record_id": 29,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 130.0,
+        "x2": 16.5,
+        "x3": 250.0,
+        "x4": 100.0,
+        "x5": 1.8,
+        "x6": 2.0,
+        "x7": 4.4,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    },
+    {
+      "conflicting_fields": [
+        "x8"
+      ],
+      "csv_values": {
+        "x1": 200.0,
+        "x2": 11.0,
+        "x3": 250.0,
+        "x4": 200.0,
+        "x5": 1.5,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.26
+      },
+      "record_id": 30,
+      "reliability": "CONFLICTING_REPORT_VS_LATER_CODE",
+      "report_values": {
+        "x1": 200.0,
+        "x2": 11.0,
+        "x3": 250.0,
+        "x4": 200.0,
+        "x5": 1.5,
+        "x6": 1.0,
+        "x7": 3.96,
+        "x8": 1.68
+      },
+      "status": "DISPUTED"
+    }
+  ]
+}

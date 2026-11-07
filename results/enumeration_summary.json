@@ -1,0 +1,11 @@
+{
+  "energetically_optimized": false,
+  "energy_evaluation_status": "NON_EVALUABLE",
+  "generated": 5184,
+  "reason": "Under the current report formula/unit/catalog transcription, every combination violates at least one checkable wall constraint; this is not proof of physical impossibility. The total-window-area constraint is additionally non-evaluable. No energy simulation occurred.",
+  "status_counts": {
+    "ADMISSIBLE": 0,
+    "INADMISSIBLE": 5184,
+    "NON_EVALUABLE": 0
+  }
+}

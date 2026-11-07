@@ -1,0 +1,9 @@
+{
+  "missing": [
+    "EnergyPlus building model (.idf/.epJSON)",
+    "EnergyPlus weather file (.epw)",
+    "EnergyPlus executable: energyplus"
+  ],
+  "model_mapping_verified": false,
+  "status": "NON_EVALUABLE"
+}
