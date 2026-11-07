@@ -10,6 +10,8 @@
 - Provide a source-grounded 2023–2026 crosswalk and claim register.
 - Add a Phase A.4.1 joint-consistency audit requiring one common hidden coordinate pair for
   all displayed penalty evidence.
+- Separate MIT audit-code licensing from the journal article's CC BY-NC 4.0 terms and the
+  unresolved redistribution rights of historical source materials.
 
 ## Key findings
 
@@ -25,6 +27,8 @@
 - Joint interval analysis finds run 1 `CONFIRMED_INCONSISTENCY` as printed, while runs 2
   and 3 are `CONDITIONALLY_COMPATIBLE`. The `2078.988` run-1 transcription hypothesis is
   conditionally compatible but is not adopted as a correction.
+- Rights clearance is a mandatory publication gate; unresolved historical permissions keep
+  MPRS on `HOLD` independently of mathematical review readiness.
 
 ## Verification
 
