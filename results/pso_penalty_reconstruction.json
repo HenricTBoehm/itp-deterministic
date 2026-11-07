@@ -1,0 +1,209 @@
+{
+  "classification": {
+    "c3_violation": "CONFIRMED",
+    "catalog_mus": "CONFIRMED",
+    "continuous_feasible_region": "CONFIRMED",
+    "inferred_x4": "CONDITIONAL",
+    "internal_pso_coordinates": "NOT_VERIFIABLE",
+    "printed_x4_p2_match": "CORRECTED",
+    "window_constraint": "NOT_VERIFIABLE"
+  },
+  "constants": {
+    "A_mm2": "140530000",
+    "H_mm": "3600",
+    "L3_mm": "66950",
+    "L4_mm": "47950",
+    "penalty_factor": "1E+6"
+  },
+  "printed_values": {
+    "p2": "2.42E-7",
+    "p3": "0.000742",
+    "total_penalty": "742.210",
+    "x3_mm": "291.5",
+    "x4_mm": "112.4",
+    "x5_m2": "1.2"
+  },
+  "test_a_discrete_catalog": {
+    "catalog_wall_values_mm": [
+      "100",
+      "150",
+      "200",
+      "250"
+    ],
+    "elementary_proof": {
+      "limit": "0.15",
+      "minimum_ratio_under_c1": "0.15322351099409378780331601793211413932968049526791",
+      "proper_subset_witnesses": {
+        "c1": [
+          "250",
+          "100"
+        ],
+        "c3": [
+          "100",
+          "100"
+        ]
+      },
+      "step_1": "c1 forces x3=250 in the documented catalog.",
+      "step_2": "At x3=250, c3 is minimized by catalog minimum x4=100."
+    },
+    "minimal_infeasible_subsets": [
+      [
+        "c1",
+        "c3"
+      ]
+    ],
+    "subset_feasibility": {
+      "c1": {
+        "feasible_pairs": 4,
+        "witness": [
+          "250",
+          "100"
+        ]
+      },
+      "c1+c2": {
+        "feasible_pairs": 3,
+        "witness": [
+          "250",
+          "150"
+        ]
+      },
+      "c1+c2+c3": {
+        "feasible_pairs": 0,
+        "witness": null
+      },
+      "c1+c3": {
+        "feasible_pairs": 0,
+        "witness": null
+      },
+      "c2": {
+        "feasible_pairs": 12,
+        "witness": [
+          "100",
+          "150"
+        ]
+      },
+      "c2+c3": {
+        "feasible_pairs": 6,
+        "witness": [
+          "100",
+          "150"
+        ]
+      },
+      "c3": {
+        "feasible_pairs": 9,
+        "witness": [
+          "100",
+          "100"
+        ]
+      },
+      "empty": {
+        "feasible_pairs": 16,
+        "witness": [
+          "100",
+          "100"
+        ]
+      }
+    }
+  },
+  "test_b_continuous_region": {
+    "analytic_vertices": [
+      [
+        "225",
+        "112.5"
+      ],
+      [
+        "225",
+        "125.45881126173096976016684045881126173096976016684"
+      ],
+      [
+        "234.28117998506348020911127707244212098581030619866",
+        "112.5"
+      ]
+    ],
+    "bounds_mm": {
+      "x3": [
+        "100",
+        "400"
+      ],
+      "x4": [
+        "100",
+        "300"
+      ]
+    },
+    "independent_clipping_vertices": [
+      [
+        "225.00000000000000000000000000000000000000000000000",
+        "125.45881126173096976016684045881126173096976016684"
+      ],
+      [
+        "225.00000000000000000000000000000000000000000000000",
+        "112.50000000000000000000000000000000000000000000000"
+      ],
+      [
+        "234.28117998506348020911127707244212098581030619866",
+        "112.50000000000000000000000000000000000000000000000"
+      ]
+    ],
+    "nonempty": true,
+    "scope": "Feasible only for c1-c3; full building admissibility is not established."
+  },
+  "test_c_p2": {
+    "conditional_reported_p2_interval": [
+      "2.415E-7",
+      "2.425E-7"
+    ],
+    "conditional_x4_interval_mm": [
+      "112.44462744268705176255022997922185832359110270422",
+      "112.44474167471623917757766597921023626202008354386"
+    ],
+    "from_printed_x4": "7.9152999582072162206658983548840566862121806964387E-7",
+    "inferred_violation_mm": "0.05531547082946373571635109165806326807846617939",
+    "inferred_x4_mm": "112.44468452917053626428364890834193673192153382061",
+    "label": "inferred, not recovered original coordinate",
+    "reported": "2.42E-7",
+    "rounds_to_one_decimal_mm": "112.4"
+  },
+  "test_d_p3": {
+    "c3_violated_in_both_cases": true,
+    "conditional_reported_p3_interval": [
+      "0.0007415",
+      "0.0007425"
+    ],
+    "coordinate_rounding_box": [
+      [
+        "291.45",
+        "291.55"
+      ],
+      [
+        "112.35",
+        "112.45"
+      ]
+    ],
+    "from_printed_coordinates": "0.00074122997551826360210215356712761509048434723556639",
+    "minimum_ratio_over_printed_coordinate_rounding_box": "0.17718465808012524016224293745107806162385255817263",
+    "reported": "0.000742",
+    "with_p2_inferred_x4": "0.00074206040894663789775965593251151642490814664553533"
+  },
+  "test_e_total": {
+    "conditional_reported_total_interval": [
+      "742.2095",
+      "742.2105"
+    ],
+    "from_printed_coordinates_assuming_p4_zero": "742.02150551408432372422015696310349615296845363603",
+    "joint_conditional_x3_mm": "291.49643961977937754943142828087652883971804797416",
+    "joint_conditional_x4_mm": "112.44468452917053626428364890834193673192153382061",
+    "joint_coordinates_round_to_printed": {
+      "x3": "291.5",
+      "x4": "112.4"
+    },
+    "joint_reconstructed_total_assuming_p4_zero": "742.20999999999999999999999999999999999999999999979",
+    "reported": "742.210",
+    "warning": "Agreement is conditional and does not recover the internal PSO coordinates.",
+    "with_only_p2_inferred_x4_assuming_p4_zero": "742.30240894663789775965593251151642490814664553532"
+  },
+  "test_f_window": {
+    "reason": "Window count, area assignment, and m2/mm2 handling are not documented sufficiently.",
+    "reported_zero_is_proof_of_feasibility": false,
+    "status": "NON_EVALUABLE"
+  }
+}

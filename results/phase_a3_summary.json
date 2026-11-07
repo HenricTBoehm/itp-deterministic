@@ -1,0 +1,32 @@
+{
+  "phase": "A.3",
+  "branch": "review/pso-penalty-rounding",
+  "decision": "HOLD",
+  "claims": {
+    "catalog_mus_c1_c3": "CONFIRMED",
+    "continuous_c1_c2_c3_region_nonempty": "CONFIRMED",
+    "printed_x4_reproduces_reported_p2": "CORRECTED",
+    "p2_inverted_x4": "CONDITIONAL",
+    "c3_violation_under_rounding": "CONFIRMED",
+    "internal_pso_coordinates": "NOT_VERIFIABLE",
+    "window_constraint": "NOT_VERIFIABLE"
+  },
+  "tests": {
+    "baseline_phase_a_a1": 14,
+    "phase_a3_added": 9,
+    "complete_suite": 23,
+    "failures": 0
+  },
+  "manuscript": {
+    "requested": "ITP_Feasibility_Audit_v0.2.tex",
+    "found": false,
+    "v0_2_1_created": false,
+    "pdf_created": false
+  },
+  "mprs": {
+    "requested_version": "0.3.2",
+    "complete_catalog_available": false,
+    "criteria_from_work_order_reviewed": true,
+    "decision": "HOLD"
+  }
+}
