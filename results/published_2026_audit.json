@@ -1,0 +1,312 @@
+{
+  "audit": {
+    "decision": "HOLD",
+    "phase": "A.4",
+    "scope": "mathematical and documentary audit"
+  },
+  "boundaries": {
+    "ann_training_reproduced": false,
+    "cpso_reproduced": false,
+    "optimality_verified": false,
+    "physical_building_impossibility_claimed": false
+  },
+  "constants_2026": {
+    "A_mm2": "139880000",
+    "H_mm": "3600",
+    "L3_mm": "99000",
+    "L4_mm": "45920",
+    "penalty_weight": "1E+6",
+    "tau": "0.15"
+  },
+  "feasibility": {
+    "c1_c2_c3": {
+      "R2": {
+        "feasible": false,
+        "proof": "positive L3,L4 make the c3 left side minimal at c1/c2 lower bounds"
+      },
+      "documented_wall_catalog": {
+        "feasible": false,
+        "witnesses": []
+      }
+    },
+    "c1_c3": {
+      "R2": {
+        "condition_at_c1_boundary": "x4 <= -28.1576655052264808362369337979094076655052264808362369337979",
+        "feasible": true,
+        "witness": [
+          "225",
+          "-28.1576655052264808362369337979094076655052264808362369337979"
+        ]
+      },
+      "documented_wall_catalog": {
+        "feasible": false
+      },
+      "x4_nonnegative": {
+        "feasible": false,
+        "proof": "c1 implies L3*x3 > tau*A even at x4=0"
+      }
+    }
+  },
+  "published_candidate": {
+    "dimensional_margins": {
+      "c1_mm": "-1.3",
+      "c2_mm": "-0.1",
+      "c3_mm2": "-6325708.00"
+    },
+    "interpretation": "Exact substitution of printed coordinates; no inference of internal CPSO coordinates.",
+    "known_penalty_sum": "0.00207962798447073261115916997772648448081176225219616566897709",
+    "known_weighted_penalty": "2079.62798447073261115916997772648448081176225219616566897709",
+    "normalized_residuals_feasible_if_nonpositive": {
+      "c1": "0.00581135449262405006705409029950827000447027268663388466696468",
+      "c2": "0.000889679715302491103202846975088967971530249110320284697508897",
+      "c3": "0.045222390620531884472404918501572776665713468687446382613669",
+      "window": null
+    },
+    "one_decimal_rounding_box_half_open": {
+      "x3_mm": [
+        "223.65",
+        "223.75"
+      ],
+      "x4_mm": [
+        "112.35",
+        "112.45"
+      ]
+    },
+    "penalty_ranges_over_rounding_box": {
+      "p1": [
+        "0.0000312100121719047470428513467120252176898348990356106238881433",
+        "0.0000364359193389714544814156569193835042447846029901744470849240"
+      ],
+      "p2": [
+        "1.97706564312660278240356219779315978782922344222549580357932E-7",
+        "0.00000178252801688410537592624612077340325596567564050687966688116"
+      ],
+      "p3": [
+        "0.00204038211750457457345889597431811522912445317523276007074658",
+        "0.00204975247616732476033012977584692267378329674955673023055260"
+      ]
+    },
+    "penalty_terms_exact_substitution": {
+      "p1": "0.0000337718410389417303852048162242322351623216562030578903310419",
+      "p2": "7.91529995820721622066589835488405668621218069679968592089766E-7",
+      "p3": "0.00204506461343597015915189857166676383998081937792342781005396",
+      "p4": null
+    },
+    "printed_coordinates": {
+      "x3_mm": "223.7",
+      "x4_mm": "112.4",
+      "x5_m2": "1.9"
+    },
+    "reported_penalty_comparison": [
+      {
+        "coordinate_rounding_box_compatible": [
+          true,
+          true,
+          true
+        ],
+        "exact_printed_coordinate_matches": [
+          false,
+          false,
+          false
+        ],
+        "exact_substitution_classification": "CORRECTED",
+        "reported_components": [
+          "0.0000357",
+          "0.00000111",
+          "0.00204",
+          "0.00"
+        ],
+        "rounding_box_classification": "CONDITIONAL",
+        "run": 1
+      },
+      {
+        "coordinate_rounding_box_compatible": [
+          true,
+          true,
+          true
+        ],
+        "exact_printed_coordinate_matches": [
+          false,
+          false,
+          false
+        ],
+        "exact_substitution_classification": "CORRECTED",
+        "reported_components": [
+          "0.0000359",
+          "0.00000117",
+          "0.00204",
+          "0.00"
+        ],
+        "rounding_box_classification": "CONDITIONAL",
+        "run": 2
+      },
+      {
+        "coordinate_rounding_box_compatible": [
+          true,
+          true,
+          true
+        ],
+        "exact_printed_coordinate_matches": [
+          false,
+          false,
+          false
+        ],
+        "exact_substitution_classification": "CORRECTED",
+        "reported_components": [
+          "0.0000360",
+          "0.00000115",
+          "0.00204",
+          "0.00"
+        ],
+        "rounding_box_classification": "CONDITIONAL",
+        "run": 3
+      }
+    ],
+    "rounding_robustness": {
+      "c1_violated_throughout": true,
+      "c2_violated_throughout": true,
+      "c3_violated_throughout": true,
+      "minimum_wall_ratio_on_closed_box": "0.195170589076351158135544752645124392336288247068916213897627"
+    },
+    "window": {
+      "reason": "Multiplicity, area aggregation, and m2-to-mm2 mapping are unresolved.",
+      "status": "NON_EVALUABLE"
+    }
+  },
+  "sensitivities": {
+    "area_min_at_reported_tau_mm2": "1.829400E+8",
+    "binding_numerator_mm2": "27441000",
+    "d_area_min_d_tau": "-1.21960E+9",
+    "d_margin_d_area": "0.15",
+    "d_margin_d_tau": "139880000",
+    "d_tau_min_d_H": "0.0000544931369745496139548184157849585358879039176436945953674578",
+    "d_tau_min_d_L3": "0.00000160852158993422933943380040034315127251930225907921075207321",
+    "d_tau_min_d_L4": "8.04260794967114669716900200171575636259651129539605376036603E-7",
+    "d_tau_min_d_area": "-1.40245419722890055931760292268981076062663785757292352961716E-9",
+    "feasibility_margin_tauA_minus_N_mm2": "-6459000.00",
+    "tau_min": "0.196175293108378610237346296825850729196454103517300543322848"
+  },
+  "source": {
+    "doi": "10.46223/HCMCOUJS.acs.en.16.1.84.2026",
+    "extraction": "Poppler pdftotext -layout; equations checked against rendered PDF pages",
+    "file": "docs/A methodological approach to energy optimization for buildings by utilizing machine learning-based surrogate model and an optimization technique.pdf",
+    "identifier": "HCMCOUJS-Advances in Computational Structures 16(1), 30-60",
+    "journal_pages_used": [
+      "42-45",
+      "51",
+      "53-54",
+      "55",
+      "56-57"
+    ],
+    "pages": 31,
+    "repository_url": "https://github.com/HenricTBoehm/itp-deterministic/blob/main/docs/A%20methodological%20approach%20to%20energy%20optimization%20for%20buildings%20by%20utilizing%20machine%20learning-based%20surrogate%20model%20and%20an%20optimization%20technique.pdf",
+    "sha256": "49a72ad4f46f58ff4257714e075e54926ffa039b1878c3fecd7dacff57ec174b"
+  },
+  "table14": [
+    {
+      "F": "16319.609",
+      "F_minus_printed_sum": "0.090",
+      "P": "2078.898",
+      "component_sum_classification": "CONDITIONAL",
+      "components": [
+        "0.0000357",
+        "0.00000111",
+        "0.00204",
+        "0.00"
+      ],
+      "objective_classification": "CONFIRMED",
+      "objective_finding": "printed decomposition is inconsistent and cannot be explained by three-decimal rounding",
+      "objective_rounding_compatible": false,
+      "phi": "14240.621",
+      "phi_plus_P_from_printed": "16319.519",
+      "printed_nonwindow_component_sum": "0.00207681",
+      "reported_P_compatible_with_component_precision": true,
+      "run": 1,
+      "three_decimal_intervals": {
+        "F": [
+          "16319.6085",
+          "16319.6095"
+        ],
+        "phi_plus_P": [
+          "16319.5180",
+          "16319.5200"
+        ]
+      },
+      "weighted_component_rounding_interval": [
+        "2071.755",
+        "2081.865"
+      ],
+      "weighted_printed_component_sum": "2076.81"
+    },
+    {
+      "F": "16319.607",
+      "F_minus_printed_sum": "-0.001",
+      "P": "2078.923",
+      "component_sum_classification": "CONDITIONAL",
+      "components": [
+        "0.0000359",
+        "0.00000117",
+        "0.00204",
+        "0.00"
+      ],
+      "objective_classification": "CONDITIONAL",
+      "objective_finding": "compatible with unprinted digits under ordinary nearest rounding",
+      "objective_rounding_compatible": true,
+      "phi": "14240.685",
+      "phi_plus_P_from_printed": "16319.608",
+      "printed_nonwindow_component_sum": "0.00207707",
+      "reported_P_compatible_with_component_precision": true,
+      "run": 2,
+      "three_decimal_intervals": {
+        "F": [
+          "16319.6065",
+          "16319.6075"
+        ],
+        "phi_plus_P": [
+          "16319.6070",
+          "16319.6090"
+        ]
+      },
+      "weighted_component_rounding_interval": [
+        "2072.015",
+        "2082.125"
+      ],
+      "weighted_printed_component_sum": "2077.07"
+    },
+    {
+      "F": "16319.607",
+      "F_minus_printed_sum": "-0.001",
+      "P": "2078.920",
+      "component_sum_classification": "CONDITIONAL",
+      "components": [
+        "0.0000360",
+        "0.00000115",
+        "0.00204",
+        "0.00"
+      ],
+      "objective_classification": "CONDITIONAL",
+      "objective_finding": "compatible with unprinted digits under ordinary nearest rounding",
+      "objective_rounding_compatible": true,
+      "phi": "14240.688",
+      "phi_plus_P_from_printed": "16319.608",
+      "printed_nonwindow_component_sum": "0.00207715",
+      "reported_P_compatible_with_component_precision": true,
+      "run": 3,
+      "three_decimal_intervals": {
+        "F": [
+          "16319.6065",
+          "16319.6075"
+        ],
+        "phi_plus_P": [
+          "16319.6070",
+          "16319.6090"
+        ]
+      },
+      "weighted_component_rounding_interval": [
+        "2072.095",
+        "2082.205"
+      ],
+      "weighted_printed_component_sum": "2077.15"
+    }
+  ]
+}

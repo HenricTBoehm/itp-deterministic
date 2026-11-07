@@ -16,6 +16,8 @@ The historical sources were found in `/home/henric/Projekte/ITP_2023` and copied
 
 Phase A.3 independently reconstructs the published PSO penalty terms. It confirms the discrete catalog MUS `{c1,c3}` and a nonempty continuous `c1`–`c3` region, corrects the penalty obtained from printed `x4=112.4`, and treats inversely calculated coordinates as conditional rather than recovered historical values. See `docs/pso_rounding_analysis.md`.
 
+Phase A.4 separately audits the published 2026 journal article using its new geometry constants. The full 2026 wall-constraint system is infeasible even over the unrestricted continuous domain, while `{c1,c3}` alone is feasible only through negative `x4` and is therefore not universally contradictory. It also audits the printed CPSO candidate and Table 14 arithmetic without reproducing ANN training or CPSO. See `docs/published_2026_feasibility.md`. MPRS remains `HOLD`.
+
 ## Install and run
 
 ```bash
@@ -29,6 +31,7 @@ python3 -m venv .venv
 .venv/bin/itp-opt optimize --backend observed
 .venv/bin/itp-opt verify --config config/example.yaml
 python3 scripts/verify_pso_penalties.py
+python3 scripts/verify_published_2026.py
 ```
 
 Global options such as `--data-dir` and `--results-dir` precede the command. Exit codes are `0` for success, `2` for invalid/unverified data, `3` for missing EnergyPlus prerequisites, and `4` for a non-evaluable optimization or unverified model mapping.
