@@ -1,0 +1,15 @@
+{
+  "requested_source": "ITP_Feasibility_Audit_v0.2.tex",
+  "search_scope": "/home/henric",
+  "source_found": false,
+  "revision_created": false,
+  "pdf_created": false,
+  "status": "NOT_VERIFIABLE",
+  "reason": "The complete v0.2 LaTeX source is unavailable; no revision was fabricated from incomplete material.",
+  "required_inputs": [
+    "ITP_Feasibility_Audit_v0.2.tex",
+    "all referenced figures",
+    "bibliography files",
+    "custom LaTeX classes or style files"
+  ]
+}
